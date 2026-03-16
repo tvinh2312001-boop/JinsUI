@@ -6,8 +6,8 @@ export const useCart = () => useContext(CartContext);
 
 export const CartProvider = ({ children }) => {
     const [cartItems, setCartItems] = useState([
-        { id: 1, name: 'Classic Square', price: 1290000, img: 'https://www.jins.com/jp/client_info/JINSJINS/itemimage/URF-26S-102/URF-26S-102_97_01.jpg', qty: 1 },
-        { id: 2, name: 'Aviator Pro', price: 1890000, img: 'https://www.jins.com/jp/client_info/JINSJINS/itemimage/LMF-25S-219/LMF-25S-219_84R_01.jpg', qty: 2 }
+        // { id: 1, name: 'Classic Square', price: 1290000, img: 'https://www.jins.com/jp/client_info/JINSJINS/itemimage/URF-26S-102/URF-26S-102_97_01.jpg', qty: 1 },
+        // { id: 2, name: 'Aviator Pro', price: 1890000, img: 'https://www.jins.com/jp/client_info/JINSJINS/itemimage/LMF-25S-219/LMF-25S-219_84R_01.jpg', qty: 2 }
     ]);
 
     const addToCart = (product) => {
