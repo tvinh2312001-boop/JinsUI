@@ -9,6 +9,7 @@ const Products = () => {
         ? productsData
         : productsData.filter(p => p.category === filter);
 
+     console.log(productsData)
     return (
         <section className="products" id="products">
             <div className="container">

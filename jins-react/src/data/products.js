@@ -1,204 +1,205 @@
+import images from "../assets/loadImages";
 export const productsData = [
-    {
-        id: 1,
-        category: 'optical',
-        img: 'https://www.jins.com/jp/client_info/JINSJINS/itemimage/URF-26S-102/URF-26S-102_97_01.jpg',
-        badge: 'Mới',
-        badgeClass: '',
-        tags: 'kinhcan    nam    acetate',
-        name: 'Classic Square',
-        code: 'JS1001',
-        price: 1290000,
-        colors: [
-            { hex: '#2D2A26', title: 'Đen' },
-            { hex: '#7D5C43', title: 'Nâu sẫm' },
-            { hex: '#E2DFD2', title: 'Trắng ngà (Hết hàng)', outOfStock: true },
-        ],
-        specs: {
-            size: '49.1□21.0-145.0○41',
-            weight: '14,8 g',
-            style: 'Wellington',
-            series: 'BỐI CẢNH',
-            gender: 'UNISEX',
-            nosePad: 'người khác',
-            material: 'Mặt trước: Chất liệu bền vững.\nGọng kính: Nhựa.'
-        },
-        images: [
-            'https://www.jins.com/jp/client_info/JINSJINS/itemimage/URF-26S-102/URF-26S-102_97_01.jpg',
-            'https://www.jins.com/jp/client_info/JINSJINS/itemimage/URF-26S-102/URF-26S-102_97_02.jpg',
-            'https://www.jins.com/jp/client_info/JINSJINS/itemimage/URF-26S-102/URF-26S-102_97_03.jpg',
-            'https://www.jins.com/jp/client_info/JINSJINS/itemimage/URF-26S-102/URF-26S-102_97_04.jpg'
-        ]
+  {
+    id: 1,
+    category: "optical",
+    img: images["URF-26S-102_97_01.jpg"],
+    badge: "Mới",
+    badgeClass: "",
+    tags: "kinhcan    nam    acetate",
+    name: "Classic Square",
+    code: "JS1001",
+    price: 1290000,
+    colors: [
+      { hex: "#2D2A26", title: "Đen" },
+      { hex: "#7D5C43", title: "Nâu sẫm" },
+      { hex: "#E2DFD2", title: "Trắng ngà (Hết hàng)", outOfStock: true },
+    ],
+    specs: {
+      size: "49.1○21.0-145.0○41",
+      weight: "14,8 g",
+      style: "Wellington",
+      series: "BỐI CẢNH",
+      gender: "UNISEX",
+      nosePad: "người khác",
+      material: "Mặt trước: Chất liệu bền vững.\nGọng kính: Nhựa.",
     },
-    {
-        id: 2,
-        category: 'sun',
-        img: 'https://www.jins.com/jp/client_info/JINSJINS/itemimage/LMF-25S-219/LMF-25S-219_84R_01.jpg',
-        badge: 'Hot',
-        badgeClass: 'badge-hot',
-        tags: 'kinhram    unisex    kimloai',
-        name: 'Aviator Pro',
-        code: 'JS2024',
-        price: 1890000,
-        colors: [
-            { hex: '#D4AF37', title: 'Vàng' },
-            { hex: '#2D2A26', title: 'Đen' }
-        ],
-        specs: {
-            size: '52.0□18.0-140.0○40',
-            weight: '12.5 g',
-            style: 'Aviator',
-            series: 'Pro',
-            gender: 'Nam',
-            nosePad: 'Silicone',
-            material: 'Mặt trước: Hợp kim\nGọng kính: Hợp kim'
-        }
+    images: [
+      images["URF-26S-102_97_01.jpg"],
+      images["URF-26S-102_97_02.jpg"],
+      images["URF-26S-102_97_03.jpg"],
+      images["URF-26S-102_97_04.jpg"],
+    ],
+  },
+  {
+    id: 2,
+    category: "sun",
+    img: images["LMF-25S-219_84R_01.jpg"],
+    badge: "Hot",
+    badgeClass: "badge-hot",
+    tags: "kinhram    unisex    kimloai",
+    name: "Aviator Pro",
+    code: "JS2024",
+    price: 1890000,
+    colors: [
+      { hex: "#D4AF37", title: "Vàng" },
+      { hex: "#2D2A26", title: "Đen" },
+    ],
+    specs: {
+      size: "52.0○18.0-140.0○40",
+      weight: "12.5 g",
+      style: "Aviator",
+      series: "Pro",
+      gender: "Nam",
+      nosePad: "Silicone",
+      material: "Mặt trước: Hợp kim\nGọng kính: Hợp kim",
     },
-    {
-        id: 3,
-        category: 'fashion',
-        img: 'https://www.jins.com/jp/client_info/JINSJINS/itemimage/LMF-25S-220/LMF-25S-220_97R_01.jpg',
-        badge: '',
-        tags: 'kinhthoitrang    nu    nhua',
-        name: 'Round Vintage',
-        code: 'JS3022',
-        price: 990000,
-        colors: [
-            { hex: '#A0522D', title: 'Đồi mồi' },
-            { hex: '#2D2A26', title: 'Đen (Hết hàng)', outOfStock: true }
-        ],
-        specs: {
-            size: '48.5□20.0-142.0○42',
-            weight: '16.2 g',
-            style: 'Round',
-            series: 'Vintage',
-            gender: 'Nữ',
-            nosePad: 'Nhựa',
-            material: 'Mặt trước: Nhựa\nGọng kính: Nhựa'
-        }
+  },
+  {
+    id: 3,
+    category: "fashion",
+    img: images["LMF-25S-220_97R_01.jpg"],
+    badge: "",
+    tags: "kinhthoitrang    nu    nhua",
+    name: "Round Vintage",
+    code: "JS3022",
+    price: 990000,
+    colors: [
+      { hex: "#A0522D", title: "Đồi mồi" },
+      { hex: "#2D2A26", title: "Đen (Hết hàng)", outOfStock: true },
+    ],
+    specs: {
+      size: "48.5○20.0-142.0○42",
+      weight: "16.2 g",
+      style: "Round",
+      series: "Vintage",
+      gender: "Nữ",
+      nosePad: "Nhựa",
+      material: "Mặt trước: Nhựa\nGọng kính: Nhựa",
     },
-    {
-        id: 4,
-        category: 'optical',
-        img: 'https://www.jins.com/jp/client_info/JINSJINS/itemimage/LMF-25S-221/LMF-25S-221_02R_01.jpg',
-        badge: '',
-        tags: 'kinhcan    nam    titanium',
-        name: 'Titanium Lite',
-        code: 'JS901T',
-        price: 2190000,
-        colors: [
-            { hex: '#C0C0C0', title: 'Bạc' },
-            { hex: '#4B4B4B', title: 'Xám titan' }
-        ],
-        specs: {
-            size: '54.0□17.0-145.0○38',
-            weight: '9.8 g',
-            style: 'Square',
-            series: 'Lite',
-            gender: 'Unisex',
-            nosePad: 'Silicone',
-            material: 'Mặt trước: Titanium\nGọng kính: Titanium'
-        }
+  },
+  {
+    id: 4,
+    category: "optical",
+    img: images["LMF-25S-221_02R_01.jpg"],
+    badge: "",
+    tags: "kinhcan    nam    titanium",
+    name: "Titanium Lite",
+    code: "JS901T",
+    price: 2190000,
+    colors: [
+      { hex: "#C0C0C0", title: "Bạc" },
+      { hex: "#4B4B4B", title: "Xám titan" },
+    ],
+    specs: {
+      size: "54.0○17.0-145.0○38",
+      weight: "9.8 g",
+      style: "Square",
+      series: "Lite",
+      gender: "Unisex",
+      nosePad: "Silicone",
+      material: "Mặt trước: Titanium\nGọng kính: Titanium",
     },
-    {
-        id: 5,
-        category: 'sun',
-        img: 'https://www.jins.com/jp/client_info/JINSJINS/itemimage/LMF-25S-222/LMF-25S-222_98R_01.jpg',
-        badge: '-20%',
-        badgeClass: 'badge-sale',
-        tags: 'kinhram    nam    acetate',
-        name: 'Wayfarer Bold',
-        code: 'JS550W',
-        price: 1590000,
-        oldPrice: 1990000,
-        colors: [
-            { hex: '#2D2A26', title: 'Đen' },
-            { hex: '#8B4513', title: 'Nâu (Hết hàng)', outOfStock: true }
-        ],
-        specs: {
-            size: '51.0□22.0-150.0○45',
-            weight: '18.5 g',
-            style: 'Wayfarer',
-            series: 'Bold',
-            gender: 'Nam',
-            nosePad: 'Nhựa dẻo',
-            material: 'Mặt trước: Acetate dày\nGọng kính: Acetate'
-        },
-        images: [
-            'https://www.jins.com/jp/client_info/JINSJINS/itemimage/LMF-25S-222/LMF-25S-222_98R_01.jpg',
-            'https://www.jins.com/jp/client_info/JINSJINS/itemimage/LMF-25S-222/LMF-25S-222_98R_02.jpg',
-            'https://www.jins.com/jp/client_info/JINSJINS/itemimage/LMF-25S-222/LMF-25S-222_98R_03.jpg'
-        ]
+  },
+  {
+    id: 5,
+    category: "sun",
+    img: images["LMF-25S-222_98R_01.jpg"],
+    badge: "-20%",
+    badgeClass: "badge-sale",
+    tags: "kinhram    nam    acetate",
+    name: "Wayfarer Bold",
+    code: "JS550W",
+    price: 1590000,
+    oldPrice: 1990000,
+    colors: [
+      { hex: "#2D2A26", title: "Đen" },
+      { hex: "#8B4513", title: "Nâu (Hết hàng)", outOfStock: true },
+    ],
+    specs: {
+      size: "51.0○22.0-150.0○45",
+      weight: "18.5 g",
+      style: "Wayfarer",
+      series: "Bold",
+      gender: "Nam",
+      nosePad: "Nhựa dẻo",
+      material: "Mặt trước: Acetate dày\nGọng kính: Acetate",
     },
-    {
-        id: 6,
-        category: 'fashion',
-        img: 'https://www.jins.com/jp/client_info/JINSJINS/itemimage/UGF-26S-074/UGF-26S-074_02_01.jpg',
-        badge: '',
-        tags: 'kinhthoitrang    nu    kimloai',
-        name: 'Cat Eye Chic',
-        code: 'JS880C',
-        price: 1490000,
-        colors: [
-            { hex: '#000000', title: 'Đen' },
-            { hex: '#FFC0CB', title: 'Hồng' },
-            { hex: '#F5F5DC', title: 'Kem' }
-        ],
-        specs: {
-            size: '50.0□19.0-140.0○39',
-            weight: '14.0 g',
-            style: 'Cat Eye',
-            series: 'Chic',
-            gender: 'Nữ',
-            nosePad: 'Silicone',
-            material: 'Mặt trước: Kim loại\nGọng kính: Nhựa'
-        }
+    images: [
+      images["LMF-25S-222_98R_01.jpg"],
+      images["LMF-25S-222_98R_02.jpg"],
+      images["LMF-25S-222_98R_03.jpg"],
+    ],
+  },
+  {
+    id: 6,
+    category: "fashion",
+    img: images["UGF-26S-074_02_01.jpg"],
+    badge: "",
+    tags: "kinhthoitrang    nu    kimloai",
+    name: "Cat Eye Chic",
+    code: "JS880C",
+    price: 1490000,
+    colors: [
+      { hex: "#000000", title: "Đen" },
+      { hex: "#FFC0CB", title: "Hồng" },
+      { hex: "#F5F5DC", title: "Kem" },
+    ],
+    specs: {
+      size: "50.0○19.0-140.0○39",
+      weight: "14.0 g",
+      style: "Cat Eye",
+      series: "Chic",
+      gender: "Nữ",
+      nosePad: "Silicone",
+      material: "Mặt trước: Kim loại\nGọng kính: Nhựa",
     },
-    {
-        id: 7,
-        category: 'optical',
-        img: 'https://www.jins.com/jp/client_info/JINSJINS/itemimage/URF-26S-066/URF-26S-066_186_01.jpg',
-        badge: '',
-        tags: 'kinhcan    unisex    kimloai',
-        name: 'Half Rim Classic',
-        code: 'JS400H',
-        price: 1790000,
-        colors: [
-            { hex: '#2D2A26', title: 'Đen' },
-            { hex: '#000080', title: 'Xanh Navy' }
-        ],
-        specs: {
-            size: '53.0□18.0-145.0○35',
-            weight: '15.5 g',
-            style: 'Half Rim',
-            series: 'Classic',
-            gender: 'Nam',
-            nosePad: 'Silicone',
-            material: 'Mặt trước: Kim loại\nGọng kính: Nhựa dẻo'
-        }
+  },
+  {
+    id: 7,
+    category: "optical",
+    img: images["URF-26S-066_186_01.jpg"],
+    badge: "",
+    tags: "kinhcan    unisex    kimloai",
+    name: "Half Rim Classic",
+    code: "JS400H",
+    price: 1790000,
+    colors: [
+      { hex: "#2D2A26", title: "Đen" },
+      { hex: "#000080", title: "Xanh Navy" },
+    ],
+    specs: {
+      size: "53.0○18.0-145.0○35",
+      weight: "15.5 g",
+      style: "Half Rim",
+      series: "Classic",
+      gender: "Nam",
+      nosePad: "Silicone",
+      material: "Mặt trước: Kim loại\nGọng kính: Nhựa dẻo",
     },
-    {
-        id: 8,
-        category: 'sun',
-        img: 'https://www.jins.com/jp/client_info/JINSJINS/itemimage/URF-26S-067/URF-26S-067_186_01.jpg',
-        badge: 'Mới',
-        tags: 'kinhram    nam    nhua',
-        name: 'Sport Wrap',
-        code: 'JS350S',
-        price: 2490000,
-        colors: [
-            { hex: '#2D2A26', title: 'Đen' },
-            { hex: '#FF0000', title: 'Đỏ' },
-            { hex: '#0000FF', title: 'Xanh (Hết hàng)', outOfStock: true }
-        ],
-        specs: {
-            size: '55.0□16.0-135.0○43',
-            weight: '19.2 g',
-            style: 'Sport',
-            series: 'Wrap',
-            gender: 'Unisex',
-            nosePad: 'Cao su',
-            material: 'Mặt trước: Nhựa TR90\nGọng kính: Nhựa TR90'
-        }
-    }
+  },
+  {
+    id: 8,
+    category: "sun",
+    img: images["URF-26S-067_186_01.jpg"],
+    badge: "Mới",
+    tags: "kinhram    nam    nhua",
+    name: "Sport Wrap",
+    code: "JS350S",
+    price: 2490000,
+    colors: [
+      { hex: "#2D2A26", title: "Đen" },
+      { hex: "#FF0000", title: "Đỏ" },
+      { hex: "#0000FF", title: "Xanh (Hết hàng)", outOfStock: true },
+    ],
+    specs: {
+      size: "55.0○16.0-135.0○43",
+      weight: "19.2 g",
+      style: "Sport",
+      series: "Wrap",
+      gender: "Unisex",
+      nosePad: "Cao su",
+      material: "Mặt trước: Nhựa TR90\nGọng kính: Nhựa TR90",
+    },
+  },
 ];
